@@ -1,0 +1,20 @@
+Source: liblv-perl
+Section: perl
+Priority: optional
+Maintainer: Mark Buda <hermit@acm.org>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: https://github.com/tobyink/p5-lv
+Vcs-Git: https://github.com/quarkbuddha/p5-lv
+Vcs-Browser: https://github.com/quarkbuddha/p5-lv
+
+Package: liblv-perl
+Architecture: all
+Depends: ${misc:Depends}
+Description: LV - LV ♥ lvalue
+ This module makes lvalue subroutines easy and practical to use.  It's
+ inspired by the L<lvalue> module which is sadly problematic because
+ of the existence of another module on CPAN called L<Lvalue>.  (They
+ can get confused on file-systems that have case-insensitive file
+ names.)
+
